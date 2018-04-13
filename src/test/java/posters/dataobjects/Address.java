@@ -22,9 +22,10 @@ public class Address
 
     String country;
 
-    /**
-     * 
-     */
+    public Address()
+    {
+    }
+
     public Address(String fullName, String company, String addressLine, String city, String state, String zip, String country)
     {
         this.fullName = fullName;

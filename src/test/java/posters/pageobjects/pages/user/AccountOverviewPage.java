@@ -18,6 +18,8 @@ public class AccountOverviewPage extends AbstractBrowsingPage
 
     private SelenideElement personalDataLink = $("#linkPersonalData");
 
+    private SelenideElement addressOverviewLink = $("#linkAddressOverview");
+
     @Override
     @Step("ensure this is an account overview page")
     public void isExpectedPage()
@@ -46,6 +48,9 @@ public class AccountOverviewPage extends AbstractBrowsingPage
         // Personal Data Link
         // Make sure the link to the Personal Data page is there and the text starts with a capital letter
         personalDataLink.should(matchText("[A-Z].{3,}"));
+        // My Addresses Link
+        // Make sure the link to the Addresses Overview page is there and the text starts with a capital letter
+        addressOverviewLink.should(matchText("[A-Z].{3,}"));
     }
 
     /**
@@ -58,5 +63,17 @@ public class AccountOverviewPage extends AbstractBrowsingPage
         // Click on the link to Personal Data
         personalDataLink.scrollTo().click();
         return new PersonalDataPage();
+    }
+
+    /**
+     * @return
+     */
+    @Step("open addresses overview page")
+    public AddressesOverviewPage openAddressesOverview()
+    {
+        // Open the address overview page
+        // Click on the link to My Addresses
+        addressOverviewLink.scrollTo().click();
+        return new AddressesOverviewPage();
     }
 }

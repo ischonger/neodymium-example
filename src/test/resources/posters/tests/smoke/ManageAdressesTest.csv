@@ -1,0 +1,11 @@
+firstName,lastName,email,password,fullName,company,addressLine,city,state,zip,country,ID
+Mike,Doe,mike@doe.com,topsecret,Mike Doe,Mike Doe Inc.,5-7 Mike Doe street,New York,NY,12345,United States,Mike's test
+#Jane,Doe,jane@doe.com,topsecret,Jane Doe,Jane Doe Inc.,5-7 Jane Doe street,New York,NY,12345,United States,Jane's test
+#James,Doe,james@doe.com,topsecret,Janes' test
+#Josh,Doe,josh@doe.com,topsecret,Josh's test
+#Jim,Doe,jim@doe.com,topsecret,Jimmy's test
+#Judas,Doe,judas@doe.com,topsecret,Judas' test
+#Joel,Doe,joel@doe.com,topsecret,Joel's test
+#Jeremiah,Doe,jeremiah@doe.com,topsecret,Jeremiah's test
+#Beware john@doe.com is a preset user in the DB uncomment will lead to a fail
+#John,Doe,john@doe.com,topsecret,John's test

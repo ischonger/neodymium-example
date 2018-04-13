@@ -31,6 +31,15 @@ default:
             successfulAccountCreation: Your account has been created. Log in with your email address and password.
             emailDoesNotExistError: The email address you entered doesn't exist. Please try again.
             incorrectPasswordError: The password you entered is incorrect. Please try again.
+        fullName: full name
+        company: Company
+        addressLine: Address*
+        city: City*
+        state: State/Province*
+        zip: ZIP/Postal code*
+        AddANewShippingAddress: Add a new shipping address
+        AddANewBillingAddress: Add a new billing address
+        AddNewAddress: Add new address
     General:
         addresses:
             fullname: Full name*
